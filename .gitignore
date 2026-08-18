@@ -1,0 +1,39 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.keystore
+*.jks
+*.pem
+local.properties
+
+# Build and tool output (defence in depth: source/build files do not belong here)
+.gradle/
+.kotlin/
+build/
+**/build/
+captures/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Archives and accidental exports
+*.zip
+*.tar
+*.tar.gz
+*.apk
+*.aab
+
