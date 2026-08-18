@@ -1,27 +1,26 @@
-# Screenshot guide
+# 项目截图说明
 
-Add only sanitised images created specifically for this public portfolio.
+仅添加专门为公开 Portfolio 准备并完成脱敏的截图。
 
-## Expected files
+## README 使用的截图
 
-- `agent-management.png` — agent list or add/manage-agent workflow
-- `chat-session.png` — a conversation with fictional, professional demo text
-- `session-management.png` — session list, switching, rename, or confirmation flow
+- `agent-management.png`：Agent 列表，或添加 / 编辑 Agent 流程
+- `chat-session.png`：使用虚构、专业演示文本的聊天 Session
+- `session-management.png`：Session 列表、切换、重命名或确认操作
 
-Optional additional screenshots can show a sanitised attachment workflow, skill suggestions, or an approval/question card. If added, update the screenshot table in the root `README.md` and keep the same privacy rules.
+也可以增加附件、Skill 推荐、Stop Generation 或 Approval / Ask User 等功能截图。增加文件后，需要同步更新根目录 `README.md` 中的截图表格。
 
-These paths are referenced by the root `README.md`. PNG is suggested for predictable rendering, but the references can be updated if another format is preferable.
+## 截图检查清单
 
-## Capture checklist
+- [ ] 使用虚构 Agent 名称和消息内容。
+- [ ] 隐藏或替换所有真实 ConnectOnion 地址。
+- [ ] 移除 Token、API Key、密码、二维码、内部 URL、IP 地址和 Debug 输出。
+- [ ] 移除学生姓名、学号、邮箱、通知和设备账户信息。
+- [ ] 不展示 Private Repository、Issue Tracker 或课程评审内容。
+- [ ] 不展示未经同意的其他成员个人信息或个人资产。
+- [ ] 裁剪无关的 Emulator 或桌面区域。
+- [ ] 保持设备尺寸、主题和截图风格一致。
+- [ ] Commit 前检查图片文件名及 Metadata。
 
-- [ ] Use fictional agent names and messages.
-- [ ] Hide or replace all real ConnectOnion addresses.
-- [ ] Remove credentials, tokens, QR codes, internal URLs, IP addresses, and debug output.
-- [ ] Remove student names, IDs, email addresses, notifications, and device account details.
-- [ ] Avoid showing private repository, issue tracker, or assessment content.
-- [ ] Crop unnecessary emulator or desktop chrome.
-- [ ] Use a consistent device size and theme.
-- [ ] Check image metadata and filenames before committing.
-- [ ] Obtain consent before showing any teammate-created asset or personal information.
+添加截图后，应在 GitHub 预览根目录 `README.md`，确认图片路径、尺寸和说明均能正确显示。
 
-After adding the images, preview `README.md` on GitHub and confirm that each path and caption renders correctly.
